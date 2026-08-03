@@ -138,7 +138,7 @@
     <header>
         <!-- Aquí cargamos el LOGO desde la carpeta static -->
         <img src="{{ url_for('static', filename='logo.jpg') }}" alt="Logo de la aplicación" class="logo">
-        <h1>Gestor de Compras</h1>
+        <h1>Gestion de compras Flia. RENDON</h1>
     </header>
     
     <div class="tabs">
@@ -149,7 +149,7 @@
     <!-- PESTAÑA PRODUCTOS -->
     <div id="productos-tab" class="content active">
         <div class="input-group">
-            <input type="text" id="input-producto" placeholder="EJ. ARROZ, LECHE..." onkeypress="if(event.key==='Enter') agregarProducto()">
+            <input type="text" id="input-producto" placeholder="EJ. Bulldog frances, auto, PC gamer para eduardo" onkeypress="if(event.key==='Enter') agregarProducto()">
             <button class="btn-add" onclick="agregarProducto()">Agregar</button>
         </div>
         <ul class="item-list" id="contenedor-productos">
